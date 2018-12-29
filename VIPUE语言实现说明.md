@@ -42,4 +42,6 @@
 ![image](https://github.com/QustRobot/RunCarInMazes/blob/master/images/17.jpg)  
 第九步：测试    
   点击 F5 功能键即可执行程序。按计算机的上方向键可以控制小车向前移动，点击 stop 小车停止  
+  完整程序：下图展示了控制小车前后左右移动和停止的完整程序。比如 left 按键事件代表点击计算机的左方向键，控制向左移动，左轮要向后移动，右轮向前移动，所以左轮速度赋值为-0.5,右轮速度 0.5, 以此类推。  
+  ![image](https://github.com/QustRobot/RunCarInMazes/blob/master/images/18.jpg) 
 
