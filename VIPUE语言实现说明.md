@@ -24,27 +24,22 @@
    ![image](https://github.com/QustRobot/RunCarInMazes/blob/master/images/13.jpg)   
 第三步：设置机器人主机的 TCP 端口号和 ip 地址   
   右键点击刚刚创建好的 My Robot 0，选择 Change TCP Port,在弹出的对话框中填入端口号：8124  
-  再次右键点击 My Robot 0，选择 Properties，在弹出的对话框中填入 ip 地址：192.168.12.1  
-   ![image](https://github.com/QustRobot/RunCarInMazes/blob/master/images/14.jpg) 
-第四步：创建按键事件
-  在服务中拖拽按键事件至右边的工作区中，在按键事件的下拉列表中选择 up，代表点击计算机方向键中的上方向键，同理选择 down 代表下方向键，left 表示左方向键，
-right表示右方向键。
-
-第五步：添加数据模块
-  在基本活动中的数据拖拽到右边的工作区当中，并将按键事件与数据连接。数据 0.5表示以 0.5*小车最大速度向前移动，同理-0.5 表示以 0.5*小车最大速度向后移动，
-所以数据范围是 [-1,1]。
+  再次右键点击 My Robot 0，选择 Properties，在弹出的对话框中填入 ip 地址：192.168.12.1   
+第四步：创建按键事件    
+  在服务中拖拽按键事件至右边的工作区中，在按键事件的下拉列表中选择 up，代表点击计算机方向键中的上方向键，同理选择 down 代表下方向键，left 表示左方向键，right表示右方向键。   
+   ![image](https://github.com/QustRobot/RunCarInMazes/blob/master/images/14.jpg)  
+第五步：添加数据模块    
+  在基本活动中的数据拖拽到右边的工作区当中，并将按键事件与数据连接。数据 0.5表示以 0.5*小车最大速度向前移动，同理-0.5 表示以 0.5*小车最大速度向后移动，所以数据范围是 [-1,1]。  
   
-第六步：为左轮和右轮设置速度
-  在基本活动中拖拽与并，在与并中点击左下角的＋，分别在两个空白处填入变量名称 left 和 right（可随便定义变量名称），从数据引出两条线分别指向两个变量，表
-示名称为left 变量赋值 0.5 的同时，名称为 right 变量也赋值为 0.5
-
-第七步：添加机器人驱动器
-  在服务中拖拽机器人服务器到右边的工作区，连接与并和机器人驱动器，之后弹出Data Connections 对话框，分别填入上一步定义的变量 left 和 right，表示将变量 left 
-和 right里面保存的值（0.5）赋值给驱动器的左轮和右轮。
-
-第八步：设置左轮和右轮控制端口
-  右键点击机器人驱动器，选择 Properties，弹出 Robot Drive Settings 对话框，Partner 选择My robot 0，Left Wheel 填入 0，Right Wheel 填入 1 
-
-第九步：测试
-  点击 F5 功能键即可执行程序。按计算机的上方向键可以控制小车向前移动，点击 stop 小车停止
+第六步：为左轮和右轮设置速度  
+  在基本活动中拖拽与并，在与并中点击左下角的＋，分别在两个空白处填入变量名称 left 和 right（可随便定义变量名称），从数据引出两条线分别指向两个变量，表示名称为left 变量赋值 0.5 的同时，名称为 right 变量也赋值为 0.5      
+![image](https://github.com/QustRobot/RunCarInMazes/blob/master/images/16.jpg)  
+第七步：添加机器人驱动器   
+  在服务中拖拽机器人服务器到右边的工作区，连接与并和机器人驱动器，之后弹出Data Connections 对话框，分别填入上一步定义的变量 left 和 right，表示将变量 left 和 right里面保存的值（0.5）赋值给驱动器的左轮和右轮。     
+   ![image](https://github.com/QustRobot/RunCarInMazes/blob/master/images/17.jpg)  
+第八步：设置左轮和右轮控制端口   
+  右键点击机器人驱动器，选择 Properties，弹出 Robot Drive Settings 对话框，Partner 选择My robot 0，Left Wheel 填入 0，Right Wheel 填入 1     
+![image](https://github.com/QustRobot/RunCarInMazes/blob/master/images/18.jpg)  
+第九步：测试    
+  点击 F5 功能键即可执行程序。按计算机的上方向键可以控制小车向前移动，点击 stop 小车停止  
 
