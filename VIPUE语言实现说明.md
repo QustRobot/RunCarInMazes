@@ -9,25 +9,23 @@
   第二步：在弹出的页面点击 Install    
    ![image](https://github.com/QustRobot/RunCarInMazes/blob/master/images/9.PNG)   
   第三步：按照提示完成安装步骤，最后弹出 VIPLE 界面。   
- ![image](https://github.com/QustRobot/RunCarInMazes/blob/master/images/10.PNG)   
-3.常用工具
-  基本活动：活动用于创建新的组件、服务、函数或其他代码模块。只需要简单的将一个活动拖至图中，打开它就可以组成一个新的组件。
-  服务：除了基本活动之外，VIPLE 也提供了很多内建的服务用以传统的输入和输出，也包括机器人相关的服务，比如传感器服、发动机和驱动服务。
-  
-4.简单编程示例
-
-  编程示例：使用计算机的键盘控制小车前后左右移动和停止。
-  
-第一步：连接智能小车
-  搜索无线网络 QUST-ROBOT-xxx，输入密码：12345678 进行连接。
-  
-第二步：创建机器人主机服务
-  在服务中拖拽机器人主机到右边的工作区当中，之后会弹出 Connection type对话框，选择 Wi-Fi,点击确定按钮。
-  
-第三步：设置机器人主机的 TCP 端口号和 ip 地址
-  右键点击刚刚创建好的 My Robot 0，选择 Change TCP Port,在弹出的对话框中填入端口号：8124
-  再次右键点击 My Robot 0，选择 Properties，在弹出的对话框中填入 ip 地址：192.168.12.1
-  
+ ![image](https://github.com/QustRobot/RunCarInMazes/blob/master/images/10.jpg)   
+3.常用工具  
+  基本活动：活动用于创建新的组件、服务、函数或其他代码模块。只需要简单的将一个活动拖至图中，打开它就可以组成一个新的组件。  
+  服务：除了基本活动之外，VIPLE 也提供了很多内建的服务用以传统的输入和输出，也包括机器人相关的服务，比如传感器服、发动机和驱动服务。  
+   ![image](https://github.com/QustRobot/RunCarInMazes/blob/master/images/11.jpg)   
+4.简单编程示例  
+  编程示例：使用计算机的键盘控制小车前后左右移动和停止。  
+第一步：连接智能小车  
+  搜索无线网络 QUST-ROBOT-xxx，输入密码：12345678 进行连接。  
+   ![image](https://github.com/QustRobot/RunCarInMazes/blob/master/images/12.jpg)   
+第二步：创建机器人主机服务  
+  在服务中拖拽机器人主机到右边的工作区当中，之后会弹出 Connection type对话框，选择 Wi-Fi,点击确定按钮。   
+   ![image](https://github.com/QustRobot/RunCarInMazes/blob/master/images/13.jpg)   
+第三步：设置机器人主机的 TCP 端口号和 ip 地址   
+  右键点击刚刚创建好的 My Robot 0，选择 Change TCP Port,在弹出的对话框中填入端口号：8124  
+  再次右键点击 My Robot 0，选择 Properties，在弹出的对话框中填入 ip 地址：192.168.12.1  
+   ![image](https://github.com/QustRobot/RunCarInMazes/blob/master/images/14.jpg) 
 第四步：创建按键事件
   在服务中拖拽按键事件至右边的工作区中，在按键事件的下拉列表中选择 up，代表点击计算机方向键中的上方向键，同理选择 down 代表下方向键，left 表示左方向键，
 right表示右方向键。
