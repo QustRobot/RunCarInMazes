@@ -4,12 +4,12 @@
 2.安装VIPLE  
   VIPLE 是免费的，可以从 http://neptune.fulton.ad.asu.edu/VIPLE 下载。  
 安装步骤：  
-  第一步：在下载网站点击 ASU VIPLE Standard Edition Installer
-  
-  第二步：在弹出的页面点击 Install  
-  
-  第三步：按照提示完成安装步骤，最后弹出 VIPLE 界面。  
-
+  第一步：在下载网站点击 ASU VIPLE Standard Edition Installer  
+   ![image](https://github.com/QustRobot/RunCarInMazes/blob/master/images/8.PNG)   
+  第二步：在弹出的页面点击 Install    
+   ![image](https://github.com/QustRobot/RunCarInMazes/blob/master/images/9.PNG)   
+  第三步：按照提示完成安装步骤，最后弹出 VIPLE 界面。   
+ ![image](https://github.com/QustRobot/RunCarInMazes/blob/master/images/10.PNG)   
 3.常用工具
   基本活动：活动用于创建新的组件、服务、函数或其他代码模块。只需要简单的将一个活动拖至图中，打开它就可以组成一个新的组件。
   服务：除了基本活动之外，VIPLE 也提供了很多内建的服务用以传统的输入和输出，也包括机器人相关的服务，比如传感器服、发动机和驱动服务。
